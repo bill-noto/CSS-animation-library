@@ -1,0 +1,64 @@
+.saenimate {
+    // SPIN
+    &.spin,
+    &.spin-hover:hover,
+    &.spin-focus:focus {
+        animation-name: spin;
+    } 
+    
+    // FADE IN
+    &.fadeIn,
+    &.fadeIn-hover:hover,
+    &.fadeIn-focus:focus {
+        animation-name: fadeIn;
+    }
+
+    // FADE IN
+    &.fadeOut,
+    &.fadeOut-hover:hover,
+    &.fadeOut-focus:focus {
+        animation-name: fadeOut;
+    }
+
+    // BLAST IN 
+    &.blastIn,
+    &.blastIn-hover:hover,
+    &.blastIn-focus:focus {
+        animation-name: blastIn;
+    }
+
+    // BLAST OUT
+    &.blastOut,
+    &.blastOut-hover:hover,
+    &.blastOut-focus:focus {
+        animation-name: blastOut;
+    }
+
+    // SLIGHTRIGHTLEFT
+    &.slightSlideInRightToLeft,
+    &.slightSlideInRightToLeft-hover:hover,
+    &.slightSlideInRightToLeft-focus:focus {
+        animation-name: slightSlideInRightToLeft;
+    }
+
+    // SLIGHTLEFTRIGHT
+    &.slightSlideInLeftToRight,
+    &.slightSlideInLeftToRight-hover:hover,
+    &.slightSlideInLeftToRight-focus:focus {
+        animation-name: slightSlideInLeftToRight;
+    }
+
+    // OUTRIGHTLEFT
+    &.outOfScreenSlideInRightToLeft,
+    &.outOfScreenSlideInRightToLeft-hover:hover,
+    &.outOfScreenSlideInRightToLeft-focus:focus {
+        animation-name: outOfScreenSlideInRightToLeft;
+    }
+
+    // OUTLEFTRIGHT
+    &.outOfScreenSlideInLeftToRight,
+    &.outOfScreenSlideInLeftToRight-hover:hover,
+    &.outOfScreenSlideInLeftToRight-focus:focus {
+        animation-name: outOfScreenSlideInLeftToRight;
+    }
+}

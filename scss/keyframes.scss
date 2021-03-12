@@ -1,0 +1,44 @@
+@keyframes spin {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg)}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeOut {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+@keyframes blastIn {
+    from {transform: scale(0);}
+    to {transform: scale(1);}
+}
+
+@keyframes blastOut {
+    from {transform: scale(1);}
+    to {transform: scale(0);}
+}
+
+@keyframes slightSlideInRightToLeft {
+    from {position: relative; right: -100px;}
+    to {position: relative; right:0}
+}
+
+@keyframes slightSlideInLeftToRight {
+    from {position: relative; left: -100px;}
+    to {position: relative; left:0}
+}
+
+@keyframes outOfScreenSlideInRightToLeft {
+    from {position: relative; right: -100vw;}
+    to {position: relative; right: 0;}
+}
+
+@keyframes outOfScreenSlideInLeftToRight {
+    from {position: relative; left: -100vw;}
+    to {position: relative; left: 0;}
+}

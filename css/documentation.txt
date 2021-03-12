@@ -1,0 +1,2 @@
+- Link saenimate.css to the desired .html file
+- Saenimate animations work only if .saenimate class is applied to an element before defining the animation

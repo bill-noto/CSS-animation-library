@@ -1,0 +1,149 @@
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes blastIn {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes blastOut {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0);
+  }
+}
+@keyframes slightSlideInRightToLeft {
+  from {
+    position: relative;
+    right: -100px;
+  }
+  to {
+    position: relative;
+    right: 0;
+  }
+}
+@keyframes slightSlideInLeftToRight {
+  from {
+    position: relative;
+    left: -100px;
+  }
+  to {
+    position: relative;
+    left: 0;
+  }
+}
+@keyframes outOfScreenSlideInRightToLeft {
+  from {
+    position: relative;
+    right: -100vw;
+  }
+  to {
+    position: relative;
+    right: 0;
+  }
+}
+@keyframes outOfScreenSlideInLeftToRight {
+  from {
+    position: relative;
+    left: -100vw;
+  }
+  to {
+    position: relative;
+    left: 0;
+  }
+}
+.saenimate.spin, .saenimate.spin-hover:hover, .saenimate.spin-focus:focus {
+  animation-name: spin;
+}
+.saenimate.fadeIn, .saenimate.fadeIn-hover:hover, .saenimate.fadeIn-focus:focus {
+  animation-name: fadeIn;
+}
+.saenimate.fadeOut, .saenimate.fadeOut-hover:hover, .saenimate.fadeOut-focus:focus {
+  animation-name: fadeOut;
+}
+.saenimate.blastIn, .saenimate.blastIn-hover:hover, .saenimate.blastIn-focus:focus {
+  animation-name: blastIn;
+}
+.saenimate.blastOut, .saenimate.blastOut-hover:hover, .saenimate.blastOut-focus:focus {
+  animation-name: blastOut;
+}
+.saenimate.slightSlideInRightToLeft, .saenimate.slightSlideInRightToLeft-hover:hover, .saenimate.slightSlideInRightToLeft-focus:focus {
+  animation-name: slightSlideInRightToLeft;
+}
+.saenimate.slightSlideInLeftToRight, .saenimate.slightSlideInLeftToRight-hover:hover, .saenimate.slightSlideInLeftToRight-focus:focus {
+  animation-name: slightSlideInLeftToRight;
+}
+.saenimate.outOfScreenSlideInRightToLeft, .saenimate.outOfScreenSlideInRightToLeft-hover:hover, .saenimate.outOfScreenSlideInRightToLeft-focus:focus {
+  animation-name: outOfScreenSlideInRightToLeft;
+}
+.saenimate.outOfScreenSlideInLeftToRight, .saenimate.outOfScreenSlideInLeftToRight-hover:hover, .saenimate.outOfScreenSlideInLeftToRight-focus:focus {
+  animation-name: outOfScreenSlideInLeftToRight;
+}
+
+.saenimate.duration-1 {
+  animation-duration: 1s;
+}
+
+.saenimate.duration-2 {
+  animation-duration: 2s;
+}
+
+.saenimate.duration-3 {
+  animation-duration: 3s;
+}
+
+.saenimate.duration-4 {
+  animation-duration: 4s;
+}
+
+.saenimate.repeat-1 {
+  animation-iteration-count: 1;
+}
+
+.saenimate.repeat-2 {
+  animation-iteration-count: 2;
+}
+
+.saenimate.repeat-3 {
+  animation-iteration-count: 3;
+}
+
+.saenimate.repeat-4 {
+  animation-iteration-count: 4;
+}
+
+.saenimate.repeat-infinite {
+  animation-iteration-count: infinite;
+}
+
+.saenimate.forwards {
+  animation-fill-mode: forwards;
+}
+
+/*# sourceMappingURL=saenimate.css.map */
