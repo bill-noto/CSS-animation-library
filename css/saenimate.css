@@ -93,16 +93,16 @@
 .saenimate.blastOut, .saenimate.blastOut-hover:hover, .saenimate.blastOut-focus:focus {
   animation-name: blastOut;
 }
-.saenimate.slightSlideInRightToLeft, .saenimate.slightSlideInRightToLeft-hover:hover, .saenimate.slightSlideInRightToLeft-focus:focus {
+.saenimate.slightSRL, .saenimate.slightSRL-hover:hover, .saenimate.slightSRL-focus:focus {
   animation-name: slightSlideInRightToLeft;
 }
-.saenimate.slightSlideInLeftToRight, .saenimate.slightSlideInLeftToRight-hover:hover, .saenimate.slightSlideInLeftToRight-focus:focus {
+.saenimate.slightSLR, .saenimate.slightSLR-hover:hover, .saenimate.slightSLR-focus:focus {
   animation-name: slightSlideInLeftToRight;
 }
-.saenimate.outOfScreenSlideInRightToLeft, .saenimate.outOfScreenSlideInRightToLeft-hover:hover, .saenimate.outOfScreenSlideInRightToLeft-focus:focus {
+.saenimate.outSRL, .saenimate.outSRL-hover:hover, .saenimate.outSRL-focus:focus {
   animation-name: outOfScreenSlideInRightToLeft;
 }
-.saenimate.outOfScreenSlideInLeftToRight, .saenimate.outOfScreenSlideInLeftToRight-hover:hover, .saenimate.outOfScreenSlideInLeftToRight-focus:focus {
+.saenimate.outSLR, .saenimate.outSLR-hover:hover, .saenimate.outSLR-focus:focus {
   animation-name: outOfScreenSlideInLeftToRight;
 }
 

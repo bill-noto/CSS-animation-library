@@ -13,7 +13,7 @@
         animation-name: fadeIn;
     }
 
-    // FADE IN
+    // FADE OUT
     &.fadeOut,
     &.fadeOut-hover:hover,
     &.fadeOut-focus:focus {
@@ -34,31 +34,31 @@
         animation-name: blastOut;
     }
 
-    // SLIGHTRIGHTLEFT
-    &.slightSlideInRightToLeft,
-    &.slightSlideInRightToLeft-hover:hover,
-    &.slightSlideInRightToLeft-focus:focus {
+    // slightSlideInRightToLeft
+    &.slightSRL,
+    &.slightSRL-hover:hover,
+    &.slightSRL-focus:focus {
         animation-name: slightSlideInRightToLeft;
     }
 
-    // SLIGHTLEFTRIGHT
-    &.slightSlideInLeftToRight,
-    &.slightSlideInLeftToRight-hover:hover,
-    &.slightSlideInLeftToRight-focus:focus {
+    // slightSlideInLeftToRight
+    &.slightSLR,
+    &.slightSLR-hover:hover,
+    &.slightSLR-focus:focus {
         animation-name: slightSlideInLeftToRight;
     }
 
-    // OUTRIGHTLEFT
-    &.outOfScreenSlideInRightToLeft,
-    &.outOfScreenSlideInRightToLeft-hover:hover,
-    &.outOfScreenSlideInRightToLeft-focus:focus {
+    // outOfScreenSlideInRightToLeft
+    &.outSRL,
+    &.outSRL-hover:hover,
+    &.outSRL-focus:focus {
         animation-name: outOfScreenSlideInRightToLeft;
     }
 
-    // OUTLEFTRIGHT
-    &.outOfScreenSlideInLeftToRight,
-    &.outOfScreenSlideInLeftToRight-hover:hover,
-    &.outOfScreenSlideInLeftToRight-focus:focus {
+    // outOfScreenSlideInLeftToRight
+    &.outSLR,
+    &.outSLR-hover:hover,
+    &.outSLR-focus:focus {
         animation-name: outOfScreenSlideInLeftToRight;
     }
 }
