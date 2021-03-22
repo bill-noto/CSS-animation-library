@@ -48,6 +48,20 @@
         animation-name: slightSlideInLeftToRight;
     }
 
+    // slightSlideInUpToDown
+    &.slightSUD,
+    &.slightSUD-hover:hover,
+    &.slightSUD-focus:focus {
+        animation-name: slightSlideInUpToDown;
+    }
+
+    // slightSlideInDownToUp
+    &.slightSDU,
+    &.slightSDU-hover:hover,
+    &.slightSDU-focus:focus {
+        animation-name: slightSlideInDownToUp;
+    }
+
     // outOfScreenSlideInRightToLeft
     &.outSRL,
     &.outSRL-hover:hover,
@@ -55,10 +69,52 @@
         animation-name: outOfScreenSlideInRightToLeft;
     }
 
+    // inOfScreenSlideOutLeftToRight
+    &.inSLR,
+    &.inSLR-hover:hover,
+    &.inSLR-focus:focus {
+        animation-name: inOfScreenSlideOutLeftToRight;
+    }
+
     // outOfScreenSlideInLeftToRight
     &.outSLR,
     &.outSLR-hover:hover,
     &.outSLR-focus:focus {
         animation-name: outOfScreenSlideInLeftToRight;
+    }
+
+    // inOfScreenSlideOutRightToLeft
+    &.inSRL,
+    &.inSRL-hover:hover,
+    &.inSRL-focus:focus {
+        animation-name: inOfScreenSlideOutRightToLeft;
+    }
+
+    // outOfScreenSlideInTopToBottom
+    &.outSTB,
+    &.outSTB-hover:hover,
+    &.outSTB-focus:focus {
+        animation-name: outOfScreenSlideInTopToBottom;
+    }
+
+    // inOfScreenSlideOutBottomToTop
+    &.inSBT,
+    &.inSBT-hover:hover,
+    &.inSBT-focus:focus {
+        animation-name: inOfScreenSlideOutBottomToTop;
+    }
+
+    // outOfScreenSlideInBottomToTop
+    &.outSBT,
+    &.outSBT-hover:hover,
+    &.outSBT-focus:focus {
+        animation-name: outOfScreenSlideInBottomToTop;
+    }
+
+    // inOfScreenSlideOutTopToBottom
+    &.inSTB,
+    &.inSTB-hover:hover,
+    &.inSTB-focus:focus {
+        animation-name: inOfScreenSlideOutTopToBottom;
     }
 }

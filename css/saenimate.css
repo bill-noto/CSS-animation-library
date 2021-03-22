@@ -58,6 +58,26 @@
     left: 0;
   }
 }
+@keyframes slightSlideInUpToDown {
+  from {
+    position: relative;
+    top: -100px;
+  }
+  to {
+    position: relative;
+    top: 0;
+  }
+}
+@keyframes slightSlideInDownToUp {
+  from {
+    position: relative;
+    bottom: -100px;
+  }
+  to {
+    position: relative;
+    bottom: 0;
+  }
+}
 @keyframes outOfScreenSlideInRightToLeft {
   from {
     position: relative;
@@ -68,6 +88,16 @@
     right: 0;
   }
 }
+@keyframes inOfScreenSlideOutLeftToRight {
+  from {
+    position: relative;
+    right: 0;
+  }
+  to {
+    position: relative;
+    right: -100vw;
+  }
+}
 @keyframes outOfScreenSlideInLeftToRight {
   from {
     position: relative;
@@ -76,6 +106,56 @@
   to {
     position: relative;
     left: 0;
+  }
+}
+@keyframes inOfScreenSlideOutRightToLeft {
+  from {
+    position: relative;
+    left: 0;
+  }
+  to {
+    position: relative;
+    left: -100vw;
+  }
+}
+@keyframes outOfScreenSlideInTopToBottom {
+  from {
+    position: relative;
+    top: -100vw;
+  }
+  to {
+    position: relative;
+    top: 0;
+  }
+}
+@keyframes inOfScreenSlideOutBottomToTop {
+  from {
+    position: relative;
+    top: 0;
+  }
+  to {
+    position: relative;
+    top: -100vw;
+  }
+}
+@keyframes outOfScreenSlideInBottomToTop {
+  from {
+    position: relative;
+    bottom: -100vw;
+  }
+  to {
+    position: relative;
+    bottom: 0;
+  }
+}
+@keyframes inOfScreenSlideOutTopToBottom {
+  from {
+    position: relative;
+    bottom: 0;
+  }
+  to {
+    position: relative;
+    bottom: -100vw;
   }
 }
 .saenimate.spin, .saenimate.spin-hover:hover, .saenimate.spin-focus:focus {
@@ -99,11 +179,35 @@
 .saenimate.slightSLR, .saenimate.slightSLR-hover:hover, .saenimate.slightSLR-focus:focus {
   animation-name: slightSlideInLeftToRight;
 }
+.saenimate.slightSUD, .saenimate.slightSUD-hover:hover, .saenimate.slightSUD-focus:focus {
+  animation-name: slightSlideInUpToDown;
+}
+.saenimate.slightSDU, .saenimate.slightSDU-hover:hover, .saenimate.slightSDU-focus:focus {
+  animation-name: slightSlideInDownToUp;
+}
 .saenimate.outSRL, .saenimate.outSRL-hover:hover, .saenimate.outSRL-focus:focus {
   animation-name: outOfScreenSlideInRightToLeft;
 }
+.saenimate.inSLR, .saenimate.inSLR-hover:hover, .saenimate.inSLR-focus:focus {
+  animation-name: inOfScreenSlideOutLeftToRight;
+}
 .saenimate.outSLR, .saenimate.outSLR-hover:hover, .saenimate.outSLR-focus:focus {
   animation-name: outOfScreenSlideInLeftToRight;
+}
+.saenimate.inSRL, .saenimate.inSRL-hover:hover, .saenimate.inSRL-focus:focus {
+  animation-name: inOfScreenSlideOutRightToLeft;
+}
+.saenimate.outSTB, .saenimate.outSTB-hover:hover, .saenimate.outSTB-focus:focus {
+  animation-name: outOfScreenSlideInTopToBottom;
+}
+.saenimate.inSBT, .saenimate.inSBT-hover:hover, .saenimate.inSBT-focus:focus {
+  animation-name: inOfScreenSlideOutBottomToTop;
+}
+.saenimate.outSBT, .saenimate.outSBT-hover:hover, .saenimate.outSBT-focus:focus {
+  animation-name: outOfScreenSlideInBottomToTop;
+}
+.saenimate.inSTB, .saenimate.inSTB-hover:hover, .saenimate.inSTB-focus:focus {
+  animation-name: inOfScreenSlideOutTopToBottom;
 }
 
 .saenimate.duration-1 {

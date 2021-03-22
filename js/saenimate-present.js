@@ -40,6 +40,18 @@ document.getElementById('slightSLR').onclick = function () {
     setTimeout(clearPreviousAnimation, 2200);
 }
 
+document.getElementById('slightSUD').onclick = function () {
+    clearPreviousAnimation();
+    document.getElementById('target').classList.add('slightSUD');
+    setTimeout(clearPreviousAnimation, 2200);
+}
+
+document.getElementById('slightSDU').onclick = function () {
+    clearPreviousAnimation();
+    document.getElementById('target').classList.add('slightSDU');
+    setTimeout(clearPreviousAnimation, 2200);
+}
+
 document.getElementById('outSRL').onclick = function () {
     clearPreviousAnimation();
     document.getElementById('target').classList.add('outSRL');
@@ -49,6 +61,42 @@ document.getElementById('outSRL').onclick = function () {
 document.getElementById('outSLR').onclick = function () {
     clearPreviousAnimation();
     document.getElementById('target').classList.add('outSLR');
+    setTimeout(clearPreviousAnimation, 2200);
+}
+
+document.getElementById('outSTB').onclick = function () {
+    clearPreviousAnimation();
+    document.getElementById('target').classList.add('outSTB');
+    setTimeout(clearPreviousAnimation, 2200);
+}
+
+document.getElementById('outSBT').onclick = function () {
+    clearPreviousAnimation();
+    document.getElementById('target').classList.add('outSBT');
+    setTimeout(clearPreviousAnimation, 2200);
+}
+
+document.getElementById('inSLR').onclick = function () {
+    clearPreviousAnimation();
+    document.getElementById('target').classList.add('inSLR');
+    setTimeout(clearPreviousAnimation, 2200);
+}
+
+document.getElementById('inSRL').onclick = function () {
+    clearPreviousAnimation();
+    document.getElementById('target').classList.add('inSRL');
+    setTimeout(clearPreviousAnimation, 2200);
+}
+
+document.getElementById('inSBT').onclick = function () {
+    clearPreviousAnimation();
+    document.getElementById('target').classList.add('inSBT');
+    setTimeout(clearPreviousAnimation, 2200);
+}
+
+document.getElementById('inSTB').onclick = function () {
+    clearPreviousAnimation();
+    document.getElementById('target').classList.add('inSTB');
     setTimeout(clearPreviousAnimation, 2200);
 }
 

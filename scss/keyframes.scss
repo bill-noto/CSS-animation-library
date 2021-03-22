@@ -33,12 +33,53 @@
     to {position: relative; left:0}
 }
 
+@keyframes slightSlideInUpToDown {
+    from {position: relative; top: -100px;}
+    to {position: relative; top:0}
+}
+
+@keyframes slightSlideInDownToUp {
+    from {position: relative; bottom: -100px;}
+    to {position: relative; bottom:0}
+}
+
 @keyframes outOfScreenSlideInRightToLeft {
     from {position: relative; right: -100vw;}
     to {position: relative; right: 0;}
 }
 
+@keyframes inOfScreenSlideOutLeftToRight {
+    from {position: relative; right: 0;}
+    to {position: relative; right: -100vw;}
+}
+
 @keyframes outOfScreenSlideInLeftToRight {
     from {position: relative; left: -100vw;}
     to {position: relative; left: 0;}
+} 
+
+@keyframes inOfScreenSlideOutRightToLeft {
+    from {position: relative; left: 0;}
+    to {position: relative; left: -100vw;}
 }
+
+@keyframes outOfScreenSlideInTopToBottom {
+    from {position: relative; top: -100vw;}
+    to {position: relative; top: 0;}
+}
+
+@keyframes inOfScreenSlideOutBottomToTop {
+    from {position: relative; top: 0;}
+    to {position: relative; top: -100vw;}
+}
+
+@keyframes outOfScreenSlideInBottomToTop {
+    from {position: relative; bottom: -100vw;}
+    to {position: relative; bottom: 0;}
+}
+
+@keyframes inOfScreenSlideOutTopToBottom {
+    from {position: relative; bottom: 0;}
+    to {position: relative; bottom: -100vw;}
+}
+
