@@ -1,9 +1,54 @@
-@keyframes spin {
+@keyframes spinC {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@keyframes spinCC {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes halfSpinRight {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+@keyframes halfSpinLeft {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-180deg);
+  }
+}
+@keyframes pulsate {
+  50% {
+    transform: scale(2, 2);
+  }
+}
+@keyframes shrink {
+  50% {
+    transform: scale(0, 0);
+  }
+}
+@keyframes blinking {
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
   }
 }
 @keyframes fadeIn {
@@ -158,8 +203,70 @@
     bottom: -100vw;
   }
 }
-.saenimate.spin, .saenimate.spin-hover:hover, .saenimate.spin-focus:focus {
-  animation-name: spin;
+@keyframes halfFlipXaxis {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(180deg);
+  }
+}
+@keyframes flipXaxis {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(360deg);
+  }
+}
+@keyframes halfFlipYaxis {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(180deg);
+  }
+}
+@keyframes flipYaxis {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+.saenimate.spinC, .saenimate.spinC-hover:hover, .saenimate.spinC-focus:focus {
+  animation-name: spinC;
+}
+.saenimate.spinCC, .saenimate.spinCC-hover:hover, .saenimate.spinCC-focus:focus {
+  animation-name: spinCC;
+}
+.saenimate.hSpinR, .saenimate.hSpinR-hover:hover, .saenimate.hSpinR-focus:focus {
+  animation-name: halfSpinRight;
+}
+.saenimate.hSpinL, .saenimate.hSpinL-hover:hover, .saenimate.hSpinL-focus:focus {
+  animation-name: halfSpinLeft;
+}
+.saenimate.beat, .saenimate.beat-hover:hover, .saenimate.beat-focus:focus {
+  animation-name: pulsate;
+}
+.saenimate.shrink, .saenimate.shrink-hover:hover, .saenimate.shrink-focus:focus {
+  animation-name: shrink;
+}
+.saenimate.flash, .saenimate.flash-hover:hover, .saenimate.flash-focus:focus {
+  animation-name: blinking;
+}
+.saenimate.hFlipX, .saenimate.hFlipX-hover:hover, .saenimate.hFlipX-focus:focus {
+  animation-name: halfFlipXaxis;
+}
+.saenimate.flipX, .saenimate.flipX-hover:hover, .saenimate.flipX-focus:focus {
+  animation-name: flipXaxis;
+}
+.saenimate.hFlipY, .saenimate.hFlipY-hover:hover, .saenimate.hFlipY-focus:focus {
+  animation-name: halfFlipYaxis;
+}
+.saenimate.flipY, .saenimate.flipY-hover:hover, .saenimate.flipY-focus:focus {
+  animation-name: flipYaxis;
 }
 .saenimate.fadeIn, .saenimate.fadeIn-hover:hover, .saenimate.fadeIn-focus:focus {
   animation-name: fadeIn;

@@ -1,6 +1,35 @@
-@keyframes spin {
+@keyframes spinC {
     from {transform: rotate(0deg)}
     to {transform: rotate(360deg)}
+}
+
+@keyframes spinCC {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(-360deg)}
+}
+
+@keyframes halfSpinRight {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(180deg)}
+}
+
+@keyframes halfSpinLeft {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(-180deg)}
+}
+
+@keyframes pulsate {
+    50% {transform: scale(2,2)}
+}
+
+@keyframes shrink {
+    50% {transform: scale(0,0)}
+}
+
+@keyframes blinking {
+    25% {opacity: 0;}
+    50% {opacity: 1;}
+    75% {opacity: 0;}
 }
 
 @keyframes fadeIn {
@@ -83,3 +112,22 @@
     to {position: relative; bottom: -100vw;}
 }
 
+@keyframes halfFlipXaxis {
+    from {transform: rotateX(0deg);}
+    to {transform: rotateX(180deg);}
+}
+
+@keyframes flipXaxis {
+    from {transform: rotateX(0deg);}
+    to {transform: rotateX(360deg);}
+}
+
+@keyframes halfFlipYaxis {
+    from {transform: rotateY(0deg);}
+    to {transform: rotateY(180deg);}
+}
+
+@keyframes flipYaxis {
+    from {transform: rotateY(0deg);}
+    to {transform: rotateY(360deg);}
+}

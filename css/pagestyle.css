@@ -55,7 +55,7 @@ input {
   width: 20%;
   text-align: center;
   background-image: linear-gradient(#272F40, #F2F2F2);
-  color: #010A26;
+  color: #F2F2F2;
 }
 #forflex aside div {
   padding: 3px;
@@ -63,6 +63,15 @@ input {
 #forflex aside div h1 {
   font-family: "Open Sans", sans-serif;
   font-size: 1.3em;
+}
+#forflex aside button {
+  padding: 5px;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+  width: 100%;
+}
+#forflex aside .hide {
+  visibility: hidden;
 }
 #forflex article {
   margin: 0 auto;
@@ -162,12 +171,15 @@ footer .flexer {
 }
 
 @media only screen and (max-width: 550px) {
+  #forflex aside {
+    width: 25%;
+  }
   #forflex aside div {
     padding: 3px;
   }
   #forflex aside div h1 {
     font-family: "Open Sans", sans-serif;
-    font-size: 0.8em;
+    font-size: 1em;
   }
 
   #doc {
@@ -187,6 +199,9 @@ footer .flexer {
   }
 }
 @media only screen and (max-width: 400px) {
+  #forflex aside {
+    width: 30%;
+  }
   #forflex article #title h1 {
     text-align: center;
     font-family: "Open Sans", sans-serif;
@@ -207,6 +222,10 @@ footer .flexer {
   }
   #forflex article #container #target {
     font-size: 1.5em;
+  }
+
+  footer {
+    font-size: 0.8em;
   }
 }
 

@@ -1,6 +1,66 @@
-document.getElementById('spin').onclick = function () {
+document.getElementById('spinC').onclick = function () {
     clearPreviousAnimation();
-    document.getElementById('target').classList.add('spin');
+    document.getElementById('target').classList.add('spinC');
+    setTimeout(clearPreviousAnimation, 2200);
+}
+
+document.getElementById('spinCC').onclick = function () {
+    clearPreviousAnimation();
+    document.getElementById('target').classList.add('spinCC');
+    setTimeout(clearPreviousAnimation, 2200);
+}
+
+document.getElementById('hSpinR').onclick = function () {
+    clearPreviousAnimation();
+    document.getElementById('target').classList.add('hSpinR');
+    setTimeout(clearPreviousAnimation, 2200);
+}
+
+document.getElementById('hSpinL').onclick = function () {
+    clearPreviousAnimation();
+    document.getElementById('target').classList.add('hSpinL');
+    setTimeout(clearPreviousAnimation, 2200);
+}
+
+document.getElementById('beat').onclick = function () {
+    clearPreviousAnimation();
+    document.getElementById('target').classList.add('beat');
+    setTimeout(clearPreviousAnimation, 2200);
+}
+
+document.getElementById('shrink').onclick = function () {
+    clearPreviousAnimation();
+    document.getElementById('target').classList.add('shrink');
+    setTimeout(clearPreviousAnimation, 2200);
+}
+
+document.getElementById('flash').onclick = function () {
+    clearPreviousAnimation();
+    document.getElementById('target').classList.add('flash');
+    setTimeout(clearPreviousAnimation, 2200);
+}
+
+document.getElementById('hFlipX').onclick = function () {
+    clearPreviousAnimation();
+    document.getElementById('target').classList.add('hFlipX');
+    setTimeout(clearPreviousAnimation, 2200);
+}
+
+document.getElementById('flipX').onclick = function () {
+    clearPreviousAnimation();
+    document.getElementById('target').classList.add('flipX');
+    setTimeout(clearPreviousAnimation, 2200);
+}
+
+document.getElementById('hFlipY').onclick = function () {
+    clearPreviousAnimation();
+    document.getElementById('target').classList.add('hFlipY');
+    setTimeout(clearPreviousAnimation, 2200);
+}
+
+document.getElementById('flipY').onclick = function () {
+    clearPreviousAnimation();
+    document.getElementById('target').classList.add('flipY');
     setTimeout(clearPreviousAnimation, 2200);
 }
 
