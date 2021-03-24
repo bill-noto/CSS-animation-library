@@ -1,18 +1,21 @@
-.saenimate.repeat-1 {
-    animation-iteration-count: 1;
-}
-.saenimate.repeat-2 {
-    animation-iteration-count: 2;
-}
-.saenimate.repeat-3 {
-    animation-iteration-count: 3;
-}
-.saenimate.repeat-4 {
-    animation-iteration-count: 4;
-}
-.saenimate.repeat-infinite {
-    animation-iteration-count: infinite;
-}
-.saenimate.forwards {
-    animation-fill-mode: forwards;
+.saenimate{
+
+    &.repeat-1 {
+        animation-iteration-count: 1;
+    }
+    &.repeat-2 {
+        animation-iteration-count: 2;
+    }
+    &.repeat-3 {
+        animation-iteration-count: 3;
+    }
+    &.repeat-4 {
+        animation-iteration-count: 4;
+    }
+    &.repeat-infinite {
+        animation-iteration-count: infinite;
+    }
+    &.forwards {
+        animation-fill-mode: forwards;
+    }
 }

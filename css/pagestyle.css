@@ -123,6 +123,11 @@ input {
   font-family: "Open Sans", sans-serif;
   line-height: 1.2;
 }
+#doc section li {
+  margin-top: 2%;
+  margin-left: 2%;
+  font-family: "Open Sans", sans-serif;
+}
 #doc section:last-child {
   margin-bottom: 0;
 }
@@ -186,10 +191,10 @@ footer .flexer {
     line-height: 1.5;
   }
   #doc section {
-    margin-bottom: 2%;
+    margin-bottom: 3%;
   }
   #doc section p {
-    margin-top: 2%;
+    margin-top: 5%;
     font-family: "Open Sans", sans-serif;
     line-height: 1.5;
   }
