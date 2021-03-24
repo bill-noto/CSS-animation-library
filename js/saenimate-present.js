@@ -1,3 +1,5 @@
+// button handlers
+
 document.getElementById('spinC').onclick = function () {
     clearPreviousAnimation();
     document.getElementById('target').classList.add('spinC');
@@ -160,6 +162,7 @@ document.getElementById('inSTB').onclick = function () {
     setTimeout(clearPreviousAnimation, 2200);
 }
 
+// Clearing function
 function clearPreviousAnimation() {
     document.getElementById('target').className = "";
     document.getElementById('target').classList.add('saenimate');
