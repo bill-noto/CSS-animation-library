@@ -1,0 +1,133 @@
+@keyframes spinC {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg)}
+}
+
+@keyframes spinCC {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(-360deg)}
+}
+
+@keyframes halfSpinRight {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(180deg)}
+}
+
+@keyframes halfSpinLeft {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(-180deg)}
+}
+
+@keyframes pulsate {
+    50% {transform: scale(2,2)}
+}
+
+@keyframes shrink {
+    50% {transform: scale(0,0)}
+}
+
+@keyframes blinking {
+    25% {opacity: 0;}
+    50% {opacity: 1;}
+    75% {opacity: 0;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeOut {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+@keyframes blastIn {
+    from {transform: scale(0);}
+    to {transform: scale(1);}
+}
+
+@keyframes blastOut {
+    from {transform: scale(1);}
+    to {transform: scale(0);}
+}
+
+@keyframes slightSlideInRightToLeft {
+    from {position: relative; right: -100px;}
+    to {position: relative; right:0}
+}
+
+@keyframes slightSlideInLeftToRight {
+    from {position: relative; left: -100px;}
+    to {position: relative; left:0}
+}
+
+@keyframes slightSlideInUpToDown {
+    from {position: relative; top: -100px;}
+    to {position: relative; top:0}
+}
+
+@keyframes slightSlideInDownToUp {
+    from {position: relative; bottom: -100px;}
+    to {position: relative; bottom:0}
+}
+
+@keyframes outOfScreenSlideInRightToLeft {
+    from {position: relative; right: -100vw;}
+    to {position: relative; right: 0;}
+}
+
+@keyframes inOfScreenSlideOutLeftToRight {
+    from {position: relative; right: 0;}
+    to {position: relative; right: -100vw;}
+}
+
+@keyframes outOfScreenSlideInLeftToRight {
+    from {position: relative; left: -100vw;}
+    to {position: relative; left: 0;}
+} 
+
+@keyframes inOfScreenSlideOutRightToLeft {
+    from {position: relative; left: 0;}
+    to {position: relative; left: -100vw;}
+}
+
+@keyframes outOfScreenSlideInTopToBottom {
+    from {position: relative; top: -100vw;}
+    to {position: relative; top: 0;}
+}
+
+@keyframes inOfScreenSlideOutBottomToTop {
+    from {position: relative; top: 0;}
+    to {position: relative; top: -100vw;}
+}
+
+@keyframes outOfScreenSlideInBottomToTop {
+    from {position: relative; bottom: -100vw;}
+    to {position: relative; bottom: 0;}
+}
+
+@keyframes inOfScreenSlideOutTopToBottom {
+    from {position: relative; bottom: 0;}
+    to {position: relative; bottom: -100vw;}
+}
+
+@keyframes halfFlipXaxis {
+    from {transform: rotateX(0deg);}
+    to {transform: rotateX(180deg);}
+}
+
+@keyframes flipXaxis {
+    from {transform: rotateX(0deg);}
+    to {transform: rotateX(360deg);}
+}
+
+@keyframes halfFlipYaxis {
+    from {transform: rotateY(0deg);}
+    to {transform: rotateY(180deg);}
+}
+
+@keyframes flipYaxis {
+    from {transform: rotateY(0deg);}
+    to {transform: rotateY(360deg);}
+}
