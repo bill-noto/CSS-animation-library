@@ -23,7 +23,7 @@
 * Best way to work the library:
 
 -Animations can be a powerful tool if used in a good and orderly manner.
--Avoid using animations just to use them, as that can and most likely will deteriorate your UX. No one likes bouncing annoying elements just beacuse.
+-Avoid using animations just to have them, as that can and most likely will deteriorate your UX. No one likes bouncing annoying elements just because.
 -Careful when animating large objects, as they may not work the way it's expected. It also goes hand in hand with the UX, as it can be annoying to have a large element animated.
 -Avoid infite animations. A class for infinte animations has been made, but use it sparingly, if ever, as it can be viewed as a bad UX practice.
 -Inline elements CANNOT be animated. If you'd like an inline element to be animated, remember to change its display to inline-block, or don't do it at all.
